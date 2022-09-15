@@ -1,0 +1,16 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    cursor: cell;
+    
+}
+td{
+    border: dotted 1px;
+}
+tr:hover{
+    background-color: rgb(95, 250, 155);
+}
+.azul{
+    background-color: rgb(82, 162, 182);
+    border: solid black 1px;
+}

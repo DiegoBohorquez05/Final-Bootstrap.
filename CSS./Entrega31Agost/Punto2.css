@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&family=Roboto:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.todo{
+    display: flex;
+}
+
+h1{
+    background-color: black;
+    color: yellow;
+    height: 100px;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.lista{
+    width: 25%;
+    padding: 20px 20px 20px 40px;
+    background-color: gray;
+    font-size: 25px;
+}
+li{
+    color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    
+}
+
+.texto{
+    float: right;
+    padding: 20px 10px 10px 20px;
+    width: 74%;
+    font-size: 25px;
+    color: rgb(1, 1, 133);
+}
+
+.parrafos{
+    padding: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+img{
+    padding: 20px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-flow: row;
+    width: 40%;
+}
+
+.abajo{
+    
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+}
+.parrafo{
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}

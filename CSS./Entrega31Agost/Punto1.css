@@ -1,0 +1,15 @@
+.todo {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.item {
+    border: solid 1px black;
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(135deg, rgb(0, 0, 255), rgb(0, 90, 255), rgb(0, 255, 255));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

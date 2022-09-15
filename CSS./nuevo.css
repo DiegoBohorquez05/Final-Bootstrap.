@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    /* border: solid 1px black; */
+    /* padding: 20PX;
+    margin: 50px; */
+    /* padding-top: 50px;
+    margin-right: 30px;
+    padding-bottom: 50px;
+    margin-left: 30px; */
+    /* margin: 50px 30px 10px 20px;
+    padding: 50px 30px 10px 20px; */
+    /* padding: 50px;
+    border-bottom: solid 10px red;
+    border-top: solid 15px blue;
+    border-left: solid 20px brown;
+    border-right: solid 16px yellow;
+    background-color: black;
+    border-right-style: double;
+    border-top-style:groove ;
+    border-bottom-style:dashed;  */
+
+    /* border: 1px solid;
+    background-image:url(./sistemaSolar.jpg); */
+    /* background-position: -1000px; */
+    height: 500px;
+    background-size: cover; 
+    /* background-color: black; */
+}
