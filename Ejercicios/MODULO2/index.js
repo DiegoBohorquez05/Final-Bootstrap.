@@ -42,7 +42,7 @@
 let tabla=+prompt(`Digite el numero de la tabla que quiere ver`)
 function multiplicar(tabla){
     for(let i=1; i<10; i++){
-        document.write(`${tabla} x ${i} = ${tabla*i}`)
+        document.write(`${tabla} x ${i} = ${tabla*i}<br>`)
     }
 }
 multiplicar(tabla)
