@@ -12,6 +12,9 @@ for(let numero of number){
 const a=1
 const b=2
 
-let suma=a+b
+function sumar(){
+    let c=a+b
+    console.log(c)
+}
 
-console.log(suma)
+sumar()
