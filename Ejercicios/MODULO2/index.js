@@ -29,3 +29,10 @@ const suma = function () {
     console.log(c)
 }
 suma()
+
+//arrow funtion
+const suma2=(a,b)=>{
+    let suma=a+b
+    console.log(suma)
+}
+suma2(1,2)
