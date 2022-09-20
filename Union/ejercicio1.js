@@ -66,33 +66,14 @@ player=0
 pc=0
 
 let cantidad = function () {
-    let juego = +prompt(`Digite cuantas veces desea jugar`)
-    return (juego)
+    return +prompt(`Digite cuantas veces desea jugar`)
+    
 }
 const veces = cantidad()
 
 
-let persona = function () {
-    let opcion = prompt(`Piedra, papel o tijera`)
-    switch(opcion){
-        case "piedra":
-            jugador=1
-            break
-        case "papel":
-            jugador=2
-            break
-        case "tijera":
-            jugador=3
-            break
-    }
-    return (jugador)
-}
-const opc = persona()
-
-
 let computador = function () {
-    let opicionpc = (Math.floor(Math.random() * 3 + 1));
-    return (opicionpc)
+    return Math.floor(Math.random() * 3 + 1);
 }
 const maquina = computador()
 
@@ -109,12 +90,28 @@ let contapc=function(){
 
 
 for(i=0; i<veces; i++){
+    let persona = function () {
+        let opcion = prompt(`Piedra, papel o tijera`)
+        switch(opcion){
+            case "piedra":
+                jugador=1
+                break
+            case "papel":
+                jugador=2
+                break
+            case "tijera":
+                jugador=3
+                break
+        }
+        return (jugador)
+    }
+    let opc = persona()
         if (maquina == opc) {
         alert(`Empatados, los dos escogieron lo mismo`)
     } else if (maquina == 1 && opc == 2) {
         alert(`El jugador a ganado, maquina saco piedra y jugador papel`)
 
-        // const player()
+        player=player+1
 
     } else if (maquina == 2 && opc == 3) {
         alert(`El jugador a ganado, maquina saco papel y jugador tijeras`)
@@ -141,6 +138,7 @@ for(i=0; i<veces; i++){
 
         pc=pc+1
     }
+    
 }
 
 alert(`El jugador gano ${player} y la maquina gano ${pc}`)
