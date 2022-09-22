@@ -60,4 +60,4 @@ for (i = 0; i < partidas; i++) {
     }
 }
 
-alert(`El jugador gano ${player} y la maquina gano ${pc}`)
+document.write(`El jugador gano ${player} y la maquina gano ${pc}`)
